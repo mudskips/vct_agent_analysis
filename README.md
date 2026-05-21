@@ -1,0 +1,2 @@
+hi!!
+This is gonna be my first project working with python and data (AP CSP does NOT count LOL), so I'm gonna be learning as I go! My goal here is to analyze agent pick rates in VCT as well as their actual performance to determine who deserves the hype and who doesnt. 
