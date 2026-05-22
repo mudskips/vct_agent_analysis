@@ -1,2 +1,4 @@
-hello!
-This is gonna be my first project working with python and data (AP CSP does NOT count LOL), so I'm gonna be learning as I go. My goal here is to analyze agent pick rates in VCT as well as their actual performance to determine who deserves the hype and who doesnt. 
+Hello!
+This little project served to answer my question of whether or not the most picked agents in VCT (Tier 1 Valorant Esports) were actually (statistically) the best. To do this, I decided to use Valorant Champions Tour 2021-2026 Data from Ryan Luong on Kaggle, though I chose to only include data from 2026 to make these results as relevant and accurate as possible to current metas (Most Effective Tactic Available). From this set, I looked at match results and what agents were picked by which team, alongside the pick rate for each agent across all matches at all the events listed in this project's "About" section. I then created a scatterplot of this data. There is of course some nuance with the amount of games in which an agent was played, as well as the frequency of teams picking the same agent, and thus balancing the agents win rate across matches regardless of their impact on the match, however I still found these results interesting! 
+
+Thanks for reading!
