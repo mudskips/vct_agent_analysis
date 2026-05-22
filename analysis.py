@@ -32,6 +32,8 @@ final_table = temp_table.drop(columns = ["Total Wins By Map", "Total Maps Played
 plt.scatter(final_table["Pick Rate"], final_table["Win Rate"])
 plt.xlabel("Agent Pick Rate")
 plt.ylabel("Agent Win Rate")
+plt.title("VCT 2026: Agent Pick Rates vs Win Rates")
+
 
 #add labels for agent names
 for i, row in final_table.iterrows():
