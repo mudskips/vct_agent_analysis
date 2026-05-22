@@ -27,4 +27,3 @@ overall_wins.insert(0, "Win Rate", (overall_wins["Total Wins By Map"]/overall_wi
 temp_table = pd.merge(overall_pick_rates, overall_wins, on="Agent")
 final_table = temp_table.drop(columns = ["Total Wins By Map", "Total Maps Played"])
 
-print(final_table)
