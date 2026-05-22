@@ -24,6 +24,7 @@ print(overall_wins)
 overall_wins.insert(0, "Win Rate", (overall_wins["Total Wins By Map"]/overall_wins["Total Maps Played"])*100)
 
 #combine these two dataframes into one readable one
-final_table = pd.merge(overall_pick_rates, overall_wins, on="Agent")
+temp_table = pd.merge(overall_pick_rates, overall_wins, on="Agent")
+final_table = temp_table.drop(columns = ["Total Wins By Map", "Total Maps Played"])
 
-
+print(final_table)
